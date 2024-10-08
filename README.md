@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# Mantra Counter
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+The Mantra Counter is a simple mobile application built using React Native that helps users track their mantra repetitions. This app is designed to encourage mindfulness and meditation practices by allowing users to easily increment their mantra counts, set targets, and receive notifications when they reach their goals.
 
-1. Install dependencies
+## Features
+
+- **Increment Counter**: Users can increase the mantra count by pressing a large button.
+- **Reset Functionality**: A reset button sets the counter back to zero.
+- **Target Setting**: Users can set a target for mantra repetitions (e.g., 108) and receive notifications (vibration/sound) when the target is reached.
+- **Data Persistence**: The current counter and target values are stored using AsyncStorage, ensuring data persists even after closing the app.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TheCoderAdi/MantraCounter-Internship-Project
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd MantraCounter-Internship-Project
+   ```
+3. Install the dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
-
+4. Run the application:
    ```bash
-    npx expo start
+   npm run android  # For Android
+   npm run ios      # For iOS
    ```
 
-In the output, you'll find options to open the app in a
+## Usage
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Open the app on your mobile device.
+2. Press the increment button to increment the mantra count.
+3. Use the reset button to set the counter back to zero.
+4. To set a target, use the target setting button and enter your desired number of repetitions.
+5. Once the target is reached, you will receive a notification (vibration/sound) to indicate completion.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Technologies Used
 
-## Get a fresh project
+- **React Native**: For building the mobile application.
+- **AsyncStorage**: For data persistence.
+- **TypeScript**: For application logic and functionality.
 
-When you're ready, run:
+## Challenges Faced
 
-```bash
-npm run reset-project
-```
+- Implementing data persistence with AsyncStorage.
+- Ensuring smooth user experience and responsiveness across different screen sizes.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## License
 
-## Learn more
+This project is licensed under the MIT License.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Acknowledgements
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Thank you for the opportunity to work on this assignment. I look forward to any feedback you may have!
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Submission Deadline**: October 11, 2024
